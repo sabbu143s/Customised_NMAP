@@ -1,5 +1,595 @@
 [
     {
+        "id": "9b730366-0098-4dd9-ace1-3b71f5705508",
+        "target": "notion.so",
+        "options": "-F",
+        "timestamp": "2025-08-12T11:31:49.383976",
+        "results": [
+            {
+                "host": "208.103.161.1",
+                "hostname": "notion.so",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ftp",
+                                "port": 21,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http-proxy",
+                                "port": 8080,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https-alt",
+                                "port": 8443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "837bcfa0-fb32-46c5-b717-189407b4a785",
+        "target": "facebook.com",
+        "options": "-F",
+        "timestamp": "2025-08-12T11:31:26.812600",
+        "results": [
+            {
+                "host": "57.144.208.1",
+                "hostname": "facebook.com",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ftp",
+                                "port": 21,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "ea98e5e4-ba20-4fc4-bfaf-29443124ab59",
+        "target": "instagram.com",
+        "options": "-F",
+        "timestamp": "2025-08-12T11:30:41.885967",
+        "results": [
+            {
+                "host": "57.144.208.34",
+                "hostname": "instagram.com",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ftp",
+                                "port": 21,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "fecd036d-c1ff-4672-9368-9b8f2ccadfb9",
+        "target": "scanme.nmap.org",
+        "options": "-F",
+        "timestamp": "2025-08-12T11:30:12.480936",
+        "results": [
+            {
+                "host": "45.33.32.156",
+                "hostname": "scanme.nmap.org",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ftp",
+                                "port": 21,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ssh",
+                                "port": 22,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "smtp",
+                                "port": 25,
+                                "product": "",
+                                "reason": "no-response",
+                                "state": "filtered",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "0aa08969-a936-4a54-a36a-dc4f705a04af",
+        "target": "chatgpt.com",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:18:23.374689",
+        "results": [
+            {
+                "host": "104.18.32.47",
+                "hostname": "chatgpt.com",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http-proxy",
+                                "port": 8080,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https-alt",
+                                "port": 8443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "1c613927-899b-4742-b600-be26b98830cf",
+        "target": "https://cyberprivilege.co.in/",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:16:42.014087",
+        "results": []
+    },
+    {
+        "id": "94558946-dcd9-4688-9cbd-622b4692ad0f",
+        "target": "vignaniit.edu.in",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:09:39.288229",
+        "results": [
+            {
+                "host": "85.25.43.146",
+                "hostname": "vignaniit.edu.in",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ftp",
+                                "port": 21,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "ssh",
+                                "port": 22,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "domain",
+                                "port": 53,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "pop3",
+                                "port": 110,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "imap",
+                                "port": 143,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "smtps",
+                                "port": 465,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "submission",
+                                "port": 587,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "imaps",
+                                "port": 993,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "pop3s",
+                                "port": 995,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https-alt",
+                                "port": 8443,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49152,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49153,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49154,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49155,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49156,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            },
+                            {
+                                "conf": "",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "",
+                                "port": 49157,
+                                "product": "",
+                                "reason": "reset",
+                                "state": "closed",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "3e31ffb1-dfb9-4c88-9de7-ed379cf8f74d",
+        "target": "instagram.com",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:07:34.550975",
+        "results": []
+    },
+    {
+        "id": "ef101f7e-3277-47dd-b591-e5082c1930dd",
+        "target": "google.com",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:07:14.404098",
+        "results": [
+            {
+                "host": "142.250.193.174",
+                "hostname": "google.com",
+                "protocols": [
+                    {
+                        "ports": [
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "http",
+                                "port": 80,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            },
+                            {
+                                "conf": "3",
+                                "cpe": "",
+                                "extrainfo": "",
+                                "name": "https",
+                                "port": 443,
+                                "product": "",
+                                "reason": "syn-ack",
+                                "state": "open",
+                                "version": ""
+                            }
+                        ],
+                        "protocol": "tcp"
+                    }
+                ],
+                "state": "up"
+            }
+        ]
+    },
+    {
+        "id": "6ef4b03b-abd3-497c-b05c-d540dffce8cc",
+        "target": "instagram.com",
+        "options": "-F",
+        "timestamp": "2025-08-11T09:06:06.451694",
+        "results": []
+    },
+    {
         "id": "e2787593-16c8-4dba-bca4-e2f703f1a85d",
         "target": "scanme.nmap.org",
         "options": "-F",
