@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap');
+
+body { 
+    font-family: 'Rajdhani', sans-serif; 
+    background-color: #0D1117;
+    /* Create the grid lines */
+    background-image: 
+        linear-gradient(to right, rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    /* Apply the animation */
+    animation: moveGrid 5s linear infinite;
+    /* overflow: hidden;  */
+    /* Prevent scrollbars from animation */
+}
+
+.loader { 
+    border-color: rgba(0, 255, 255, 0.2);
+    border-top-color: #00FFFF; /* Cyan */
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin { 
+    to { transform: rotate(360deg); } 
+}
+
+/* Keyframe animation for the moving grid */
+@keyframes moveGrid {
+    from { background-position: 0 0; }
+    to { background-position: 50px 50px; }
+}
+
+.nav-active { 
+    color: #00FFFF; 
+    border-bottom-color: #00FFFF; 
+}
+
+.page { 
+    display: none; 
+}
+
+.page-active { 
+    display: block; 
+}
+
+/* Futuristic button style */
+.scan-btn { 
+    background-color: rgba(0, 255, 255, 0.1);
+    border: 1px solid rgba(0, 255, 255, 0.5);
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
+.scan-btn:hover:not(:disabled) { 
+    background-color: rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 15px #00FFFF;
+}
+
+/* Glassmorphism card effect */
+.glass-card {
+    background: rgba(18, 24, 38, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Styled form inputs */
+.form-input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+.form-input:focus {
+    outline: none;
+    border-color: #00FFFF;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* New style for the select dropdown arrow */
+.select-arrow {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%2300FFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
+
+/* Fade-in animation for results */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+}
